@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+
+--- a/.github/workflows/windows_release.yml
++++ b/.github/workflows/windows_release.yml
+@@ -77,4 +77,4 @@
+         with:
+           name: SwiftFormat.${{ matrix.product-arch }}.msi
+           path: artifacts\SwiftFormat.msi
+-          retention-days: 5
++          retention-days: 5
+
+# bfp-replay-registration: f3fe465a67a5-llm
